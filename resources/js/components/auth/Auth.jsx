@@ -18,7 +18,7 @@ const Auth = () => {
         className={isPanelVisible ? "active" : ""}
         onClick={() => setIsPanelVisible(false)}
       ></div>
-      <div className="container">
+      <div className="container auth-container">
         <div className="image-container"></div>
         <div className="welcome">Добро пожаловать</div>
         <div className="info-text">

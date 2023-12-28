@@ -5,7 +5,9 @@ import AppRoutes from "./routes/AppRoutes";
 export default function Root() {
   return (
     <Router>
-      <AppRoutes />
+      <div className="container">
+        <AppRoutes />
+      </div>
     </Router>
   );
 }
